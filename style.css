@@ -1,0 +1,52 @@
+/* basic styles*/
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f9f4e1;
+    color: #fd9401;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+#shibe-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#shibe-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: #fd9401;
+    color: white;
+    border: none;
+    padding: 16px 26px;
+    font-size: 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f4a967;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 18px;
+}
